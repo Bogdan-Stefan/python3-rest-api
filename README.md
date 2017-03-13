@@ -19,7 +19,7 @@ requirements specified in the laboratory.
 * The initialisation process populates the database with the following cars:  
 
     | ID  | Make  | Model | Year | Price € |
-    | --- | ----- | ----- | ---- | ------- |
+    |:---:|:-----:|:-----:|:----:|:-------:|
     | 1   | Ford  | Focus | 2012 | 8000    |
     | 2   | Dacia | Logan | 2006 | 2400    |
     | 3   | BMW   | 320d  | 2010 | 10100   |
