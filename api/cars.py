@@ -91,6 +91,11 @@ class Car:
         self.year = new_info["year"]
         self.price = new_info["price"]
 
+        self.info_dict["make"] = new_info["make"]
+        self.info_dict["model"] = new_info["model"]
+        self.info_dict["year"] = new_info["year"]
+        self.info_dict["price"] = new_info["price"]
+
     def get_info(self):
         """Returns a dictionary containing all the information about the car"""
         return self.info_dict
