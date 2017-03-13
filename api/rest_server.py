@@ -157,5 +157,3 @@ if __name__ == "__main__":
     httpd = HTTPServer(server_address, RestHandler)
     print("Server running at {}:{}".format(ip, port))
     httpd.serve_forever()
-
-# TODO: update README.md
