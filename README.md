@@ -8,7 +8,7 @@ stefanbogdan.sbg@gmail.com
 
 ## Assignment Description
 Create an application that provides a RESTFull API. It is mandatory to use at
-least: GET, POST,PUT, DELETE. It is very important to respect all additional
+least: GET, POST, PUT, DELETE. It is very important to respect all additional
 requirements specified in the laboratory.  
 **Important note:** You are not allowed to use any web frameworks!
 
