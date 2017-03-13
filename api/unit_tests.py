@@ -5,11 +5,6 @@ import unittest
 class TestRestApi(unittest.TestCase):
     address = "http://127.0.0.1:8081"
 
-    def make_request(self, method, resource):
-        if method == "GET":
-            return requests.get(self.address + resource)
-        return None
-
     # Testing GET
     def test_GET1(self):
         """successful GET"""
