@@ -24,6 +24,12 @@ requirements specified in the laboratory.
     | 2   | Dacia | Logan | 2006 | 2400    |
     | 3   | BMW   | 320d  | 2010 | 10100   |
 
+#### What would I do differently if I decided to remake this project
+* I would make it easier to introduce/remove supported calls (maybe using python decorators and regex).
+* I would change the **GET** path for a single car from `/car/id` to `/cars/id`.
+* Regarding unit-testing, I would use a single test suite instead of multiple small tests.
+* I would make a `CarList` class to store all the cars and CRUD functions.
+
 ## Supported Calls
 * **GET** `/cars`  
 * **GET** `/car/id`  
